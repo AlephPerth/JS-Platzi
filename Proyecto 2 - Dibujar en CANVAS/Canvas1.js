@@ -1,8 +1,8 @@
                         ///////* ADDEVENTLISTENER *///////
 
-const texto = document.getElementById("texto_lineas");
-const pintar = document.getElementById("botonPaint");
-pintar.addEventListener ("click",dibujoPorClick);
+let texto = document.getElementById("texto_lineas");
+let boton = document.getElementById("botonHTML");
+boton.addEventListener ("click",dibujoPorClick);
 
 function dibujoPorClick() {
     let lineas = parseInt(texto.value);
@@ -26,13 +26,13 @@ function dibujoPorClick() {
     yf = espacio * l;
     xf = espacio * (l+1);
     dibujandoXunaPesadilla("green", )
-    }
+}
 
     for (l=0; l < lineas; l++) {
     yi = espacio * l;
     xf = espacio * (l+1);
     dibujandoXunaPesadilla("yellow", )
-    }
+}
 
 }
 
@@ -50,10 +50,10 @@ function dibujandoXunSueño(color, Xinicial, Yinicial, Xfinal, Yfinal) {
     papel.closePath(); // Cierro el dibjo    
 }
 
-dibujandoXunSueño("black", 1,1,1,199) // Borde izquierdo
-dibujandoXunSueño("black", 1,199,199,199) // Borde inferior
-dibujandoXunSueño("black", 199,199,199,1) // Borde derecho
-dibujandoXunSueño("black", 199,1,1,1) // Borde superior
+dibujandoXunSueño("black", 1,1,1,299) // Borde izquierdo
+dibujandoXunSueño("black", 1,299,299,299) // Borde inferior
+dibujandoXunSueño("black", 299,299,299,1) // Borde derecho
+dibujandoXunSueño("black", 299,1,1,1) // Borde superior
 
 function dibujandoXunaPesadilla(color, Xinicial, Yinicial, Xfinal, Yfinal) {
 
@@ -95,10 +95,12 @@ function dibujarLinea(color, Xinicial, Yinicial, Xfinal, Yfinal)
     lienzo.closePath(); // Cierro el dibjo    
 }
 
-dibujarLinea("black", 1,1,1,199) // Borde izquierdo
-dibujarLinea("black", 1,199,199,199) // Borde inferior
-dibujarLinea("black", 199,199,199,1) // Borde derecho
-dibujarLinea("black", 199,1,1,1) // Borde superior
+dibujarLinea("black", 1,1,1,299) // Borde izquierdo
+dibujarLinea("black", 1,299,299,299) // Borde inferior
+dibujarLinea("black", 299,299,299,1) // Borde derecho
+dibujarLinea("black", 299,1,1,1) // Borde superior
+
+
 
                         ///////* CICLOS FOR, DO WHILE Y WHILE *///////
 
