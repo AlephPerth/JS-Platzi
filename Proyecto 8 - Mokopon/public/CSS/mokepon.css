@@ -1,0 +1,488 @@
+/* GENERALITIS */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F8F8F8;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Mokepon init. */
+
+/* Mokepon inst */
+
+/* Mokepon game: mokepon */
+
+input:checked + label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#select-mokepon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mokepon-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.Antorcher img {
+    width: 130px;
+}
+    .Antorcher p {
+    text-align: center;
+    }
+
+.Antorcher {
+    width: 150px;
+    height: 250px;
+    background-color: #FF7F00;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
+}
+    div.Antorcher:hover {
+        cursor: pointer;
+        background-color: #ffaa56;
+        font-weight: bold;
+        border: 3px solid black;
+    }
+
+.Esquarzo img {
+    width: 130px;
+}
+    .Esquarzo p {
+    text-align: center;
+    }
+
+.Esquarzo {
+    width: 150px;
+    height: 250px;
+    background-color: #B0E2FF;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
+}
+    div.Esquarzo:hover {
+        cursor: pointer;
+        background-color: #7cccfa;
+        font-weight: bold;
+        border: 3px solid black;
+    }
+
+.Vulva img {
+    width: 130px;
+}
+    .Vulva p {
+    text-align: center;
+    }
+
+.Vulva {
+    width: 150px;
+    height: 250px;
+    background-color: #DEB887;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
+}
+    div.Vulva:hover {
+        cursor: pointer;
+        background-color: #ddc6a8;
+        font-weight: bold;
+        border: 3px solid black;
+    }
+
+.Langostelvis img {
+        width: 130px;
+}
+    .Langostelvis p {
+    text-align: center;
+    }
+    
+.Langostelvis {
+        width: 150px;
+        height: 250px;
+        background-color: #FF6A6A;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 10px 0 10px 0;
+        border-radius: 20px;
+}
+    div.Langostelvis:hover {
+        cursor: pointer;
+        background-color: #f89696;
+        font-weight: bold;
+        border: 3px solid black;
+    }
+
+.Tuca img {
+    width: 130px;
+}
+    .Tuca p {
+    text-align: center;
+    }
+        
+.Tuca {
+    width: 150px;
+    height: 250px;
+    background-color: #99FF66;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
+}
+
+div.Tuca:hover {
+    cursor: pointer;
+    background-color: #b8f599	;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+.Paython img {
+    width: 130px;
+}
+    .Paython p {
+        text-align: center;
+    }
+
+.Paython {
+    width: 150px;
+    height: 250px;
+    background-color: #b058a0;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0 10px 0;
+    border-radius: 20px;
+}
+
+    div.Paython:hover {
+        cursor: pointer;
+        background-color: #d16abe;
+        font-weight: bold;
+        border: 3px solid black;
+    }
+
+#select-attack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attack-cards {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+
+.btn, #btn-mokepon {
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #F8F8F8;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0.5px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn #btn-mokepon:hover {
+    cursor: pointer;
+    background-color: #d4cfcf;
+    border: 2px solid black;
+}
+
+#btn-fire {
+    background-color: #FF7F00;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+    #btn-fire:hover {
+    cursor: pointer;
+    opacity: 85%;
+    font-weight: bold;
+    }
+
+#btn-water {
+    background-color: #B0E2FF;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+    #btn-water:hover {
+    cursor: pointer;
+    opacity: 85%;
+    font-weight: bold;
+    }
+
+#btn-earth {
+    background-color: #DEB887;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+    #btn-earth:hover {
+    cursor: pointer;
+    opacity: 85%;
+    font-weight: bold;
+    }
+
+#btn-plant {
+    background-color: #99FF66	;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+    #btn-earth:hover {
+    cursor: pointer;
+    opacity: 85%;
+    font-weight: bold;
+    }
+
+#btn-fight {
+    background-color: #FF6A6A;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+    #btn-earth:hover {
+    cursor: pointer;
+    opacity: 85%;
+    font-weight: bold;
+    }
+
+
+#lifes {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 15px;
+    justify-self: center
+}
+
+.enemystats, .playerstats {
+    display: flex;
+    justify-content: center;
+}
+
+#msj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#refresh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-refresh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0.5px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+    #btn-refresh:hover {
+        cursor: pointer;
+        background-color: #d4cfcf;
+        border: 2px solid black;
+    }
+
+#combat-log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 300px;
+    height: 150px;
+    background-color: #EEEE;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+#output {
+    margin:0; 
+}
+
+#game-map {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#map {
+    border: 2px solid black;
+}
+
+@media (max-width: 979px) {
+
+    .logo {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+
+    .mokepon-cards {
+        width: 180px;
+        justify-content: center;
+        margin: 5px;
+        display: grid;
+        grid-column: auto auto;
+        grid-row: auto auto auto;
+    }
+
+    .Antorcher img {
+        width: 85px;
+    }
+
+    .Antorcher {
+        width: 125px;
+        height: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 35px 5px 10px 0;
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .Esquarzo img {
+        width: 85px;
+    }
+
+    .Esquarzo {
+        width: 125px;
+        height: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 35px 5px 10px 0;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .Vulva img {
+        width: 85px;
+    }
+
+    .Vulva {
+        width: 125px;
+        height: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 35px 5px 10px 0;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .Langostelvis img {
+        width: 85px;
+    }
+
+    .Langostelvis {
+        width: 125px;
+        height: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 35px 5px 10px 0;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .Tuca img {
+        width: 85px;
+        }
+    
+    .Tuca {
+        width: 125px;
+        height: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 35px 5px 10px 0;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .Paython img {
+        width: 85px;
+        }
+
+    .Paython {
+        width: 125px;
+        height: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 35px 5px 10px 0;
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    #mokepon-image {
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .btn, #btn-mokepon {
+        width: 220px;
+        height: 50px;
+        margin: 25px 0;
+        font-size: 18px;
+    }
+
+    .btn-attack {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    }
+}
