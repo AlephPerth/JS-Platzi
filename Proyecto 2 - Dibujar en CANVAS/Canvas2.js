@@ -15,10 +15,10 @@ let papel = cuadro.getContext ("2d"); // Esta VAR hace las veces de "lienzo"
 let x = 250;
 let y = 250;
 
-dibujarLinea("black", 1,1,1,499, papel); // Borde izquierdo
-dibujarLinea("black", 1,499,499,499, papel); // Borde inferior
-dibujarLinea("black", 499,499,499,1, papel); // Borde derecho
-dibujarLinea("black", 499,1,1,1, papel); // Borde superior
+dibujarLinea("black", 1,1,1,399, papel); // Borde izquierdo
+dibujarLinea("black", 1,399,399,399, papel); // Borde inferior
+dibujarLinea("black", 399,399,399,1, papel); // Borde derecho
+dibujarLinea("black", 399,1,1,1, papel); // Borde superior
 
 dibujarLinea("red", 249,249,251,251, papel); // Centro
 
