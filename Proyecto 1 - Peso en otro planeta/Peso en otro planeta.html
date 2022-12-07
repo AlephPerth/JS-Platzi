@@ -7,87 +7,54 @@
     <title>Peso en otro planeta</title>
 </head>
     <body>
-<script>
 
-        let usuario = prompt("¿Cuanto pesas?");
-        let planeta = parseInt (prompt("Elije tu planeta 1 mercurio, 2 venus, 3 marte, 4 jupiter, 5 saturno, 6 urano, 7 neptuno, 8 pluton, 9, la luna, 0 el sol"));
+        <body>
 
-        let g_mercurio = 3.7;
-        let g_venus = 8.87;
-        let g_tierra = 9.8;
-        let g_marte = 3.7;
-        let g_jupiter = 24.8;
-        let g_satuno = 10.44;
-        let g_urano = 8.87;
-        let g_neptuno = 11.15;
-        let g_pluton = 0.62;
-        let g_luna = 1.62;
-        let g_sol = 274;
-
-        let peso_final;
-        let nombre_planeta;
-
-        if (planeta == 1) {
-        let nombre_planeta = 'mercurio'
-        peso_final = usuario * g_mercurio / g_tierra
-        document.write('Tu peso en ' + nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-
-        else if (planeta == 2) {
-        let nombre_planeta = 'venus'
-        peso_final = usuario * g_venus / g_tierra
-        document.write('Tu peso en ' + nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-
-        else if (planeta == 3) {
-        let nombre_planeta = 'marte'
-        peso_final = usuario * g_marte / g_tierra
-        document.write('Tu peso en ' + nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-    
-        else if (planeta == 4){
-        let nombre_planeta = 'jupiter'
-        peso_final = usuario * g_jupiter / g_tierra
-        document.write('Tu peso en ' +nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-    
-        else if (planeta == 5){
-        let nombre_planeta = 'saturno'
-        peso_final = usuario * g_saturno / g_tierra
-        document.write('Tu peso en ' +nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-    
-        else if (planeta == 6){
-        let nombre_planeta = 'urano'
-        peso_final = usuario * g_urano / g_tierra
-        document.write('Tu peso en ' +nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-    
-        else if (planeta == 7){
-        let nombre_planeta = 'neptuno'
-        peso_final = usuario * g_neptuno / g_tierra
-        document.write('Tu peso en ' +nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-    
-        else if (planeta == 8){
-        let nombre_planeta = 'pluton'
-        peso_final = usuario * g_pluton / g_tierra
-        document.write('Tu peso en ' +nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-    
-        else if (planeta == 9){
-        let nombre_planeta = 'luna'
-        peso_final = usuario * g_luna / g_tierra
-        document.write('Tu peso en ' +nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-    
-        else if (planeta == 0){
-        let nombre_planeta = 'sol'
-        peso_final = usuario * g_sol / g_tierra
-        document.write('Tu peso en ' +nombre_planeta + ' es ' + peso_final + ' Kg');
-        }
-    
-</script>
+            <h1>DESCUBRE TU PESO EN OTRO PLANETA</h1>
+            
+                    <form action="" method="post">
+                        <label for="">¿Cuanto pesas en la tierra? (en Kg)</label>
+                        <input type="number" id="usuario">
+            
+                        <p>Elije el planeta donde quieres saber cuanto pesas</p>
+            
+                        <label for="">Mercurio</label>
+                        <input type="radio" value="mercurio" name="planeta" id=1>
+                        
+                        <label for="">Venus</label>
+                        <input type="radio" value="venus" name="planeta" id=2>
+                       
+                        <label for="">Marte</label>
+                        <input type="radio" value="marte" name="planeta" id=3>
+                        
+                        <label for="">Jupiter</label>
+                        <input type="radio" value="jupiter" name="planeta" id=4>
+                       
+                        <label for="">Saturno</label>
+                        <input type="radio" value="saturno" name="planeta" id=5>
+                        
+                        <label for="">Urano</label>
+                        <input type="radio" value="urano" name="planeta" id=6>
+                        
+                        <label for="">Neptuno</label>
+                        <input type="radio" value="neptuno" name="planeta" id=7>
+                       
+                        <label for="">Pluton</label>
+                        <input type="radio" value="pluton" name="planeta" id=8>
+                        
+                        <label for="">La luna</label>
+                        <input type="radio" value="la luna" name="planeta" id=9>
+                        
+                        <label for="">El sol</label>
+                        <input type="radio" value="el sol" name="planeta" id=0>
+            
+                    </form>
+            
+                    <button id="calcular">Calcular</button>
+            
+                    <p id="resultado"></p>
+                
+            <script src="pesoPlaneta.js"></script>
 
     </body>
 </html>
