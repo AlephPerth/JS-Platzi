@@ -5,7 +5,9 @@ let peso_final = null;
 let usuario = null;
 
 const calcular = document.getElementById('calcular')
-    calcular.addEventListener('click',gravedad)
+calcular.addEventListener('click',gravedad)
+
+
 
 function gravedad () {
 
@@ -13,7 +15,14 @@ function gravedad () {
 
     for (let i = 0; i < planeta.length; i++) {
         if (planeta [i].checked) {
-            f_gravedad = planeta[i].value
+            nombre_planeta = planeta[i].id
+        } 
+
+    let array = document.getElementsByName('planeta')
+
+    for (let i = 0; i < array.length; i++) {
+        if (array [i].checked) {
+            f_gravedad = array[i].value
         } 
     }
         usuario = document.getElementById('usuario').value
@@ -22,11 +31,12 @@ function gravedad () {
         peso_final = parseInt(usuario * f_gravedad / g_tierra)
 
     resultado = 
-        `<h2> Tu peso seria de: ${peso_final} Kg</h2>`
+        `<h2> Tu peso en ${nombre_planeta} seria de: ${peso_final} Kg</h2>`
 
         document.getElementById('resultado').innerHTML = resultado
   
         } else {
             alert ('ERROR!')
         }
-    }
+    } 
+}
