@@ -1,13 +1,12 @@
 const g_tierra = 9.8;
 let f_gravedad = 0;
+let nombre_planeta= null;
 let resultado = null;
 let peso_final = null;
 let usuario = null;
 
 const calcular = document.getElementById('calcular')
 calcular.addEventListener('click',gravedad)
-
-
 
 function gravedad () {
 
