@@ -8,7 +8,7 @@ RIGHT: 39
 
 //console.log(teclasA);
 
-document.addEventListener("keydown", dibujarTecladoFlechas);
+document.addEventListener("mousedown", dibujarTecladoFlechas);
 
 let cuadro = document.getElementById ("dibujo");
 let papel = cuadro.getContext ("2d"); // Esta VAR hace las veces de "lienzo"
@@ -19,8 +19,6 @@ dibujarLinea("black", 1,1,1,499, papel); // Borde izquierdo
 dibujarLinea("black", 1,499,499,499, papel); // Borde inferior
 dibujarLinea("black", 499,499,499,1, papel); // Borde derecho
 dibujarLinea("black", 499,1,1,1, papel); // Borde superior
-
-dibujarLinea("red", 249,249,251,251, papel); // Centro
 
 function dibujarLinea(color, Xinicial, Yinicial, Xfinal, Yfinal, lienzo)
 {
@@ -35,11 +33,13 @@ function dibujarLinea(color, Xinicial, Yinicial, Xfinal, Yfinal, lienzo)
 
 function dibujarTecladoFlechas (eventoFlechas) {
 
-    console.log(eventoFlechas) 
     let colorsito = "green";
-    let movimiento = 1;
+    let movimiento = 10;
+    dibujarLinea("green", 249,249,251,251, papel); // Centro.
 
-    switch (eventoFlechas.keyCode) {
+    console.log("Estoy presionado, haz lo que necesites...")
+
+    switch (eventoFlechas.mousedown) {
         case teclasA.UP:
             dibujarLinea(colorsito, x, y, x, y -movimiento, papel);
             y = y -movimiento;
