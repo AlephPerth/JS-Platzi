@@ -1,0 +1,55 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    font-size: 28px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    padding: 24px 0 48px 0;
+    font-size: 18px;
+    place-content: center;
+    border: 1px solid black;
+}
+
+label {
+    padding-bottom: 8px;
+}
+
+#calcular {
+    border-radius: 12px;
+    width: 200px;
+    height: 60px;
+    font-size: medium;
+}
+
+#calcular:hover {
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+p {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+#prop {
+    padding-top: 1.75rem;
+    padding-left: 1rem;
+}
