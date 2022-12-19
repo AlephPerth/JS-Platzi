@@ -1,0 +1,106 @@
+<p>Elije el planeta/satelite donde quieres saber cuanto pesarias:</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pesoPlaneta.css" />
+    <title>TU PESO EN OTROS PLANETAS</title>
+  </head>
+  <body>
+
+    <form action="" method="post">
+      <div class="container" id="grid">
+        <label for="Mercurio">
+          <img
+            src="https://www.geoenciclopedia.com/wp-content/uploads/2014/12/planeta_mercurio_600.jpg"
+            alt="Mercurio"
+            class="img_planeta"/>
+          Mercurio
+          <input type="radio" value="3.7" name="planeta" id="Mercurio"/>
+        </label>
+
+        <label for="Venus">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg"
+            alt="Venus"
+            class="img_planeta"/>
+          Venus
+          <input type="radio" value="8.87" name="planeta" id="Venus" />
+        </label>
+
+        <label for="Marte">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Schiaparelli_Hemisphere_Enhanced.jpg/800px-Schiaparelli_Hemisphere_Enhanced.jpg"
+            alt="Marte"
+            class="img_planeta"/>
+          Marte
+          <input type="radio" value="3.7" name="planeta" id="Marte" />
+        </label>
+
+        <label for="Jupiter">
+          <img
+            src="https://d2pn8kiwq2w21t.cloudfront.net/images/jpegPIA22946.width-1280.jpg"
+            alt="Jupiter"
+            class="img_planeta"/>
+          Jupiter
+          <input type="radio" value="24.8" name="planeta" id="Jupiter" />
+        </label>
+
+        <label for="Saturno">
+          <img
+            src="https://spaceplace.nasa.gov/review/all-about-saturn/2355_poster_saturn.sp.jpg"
+            alt="Saturno"
+            class="img_planeta"/>
+          Saturno
+          <input type="radio" value="10.44" name="planeta" id="Saturno" />
+        </label>
+
+        <label for="Urano">
+          <img
+            src="https://web.archive.org/web/20090119235457im_/http://planetquest.jpl.nasa.gov/milestones_show/uranus.jpg"
+            alt="Urano"
+            class="img_planeta"/>
+          Urano
+          <input type="radio" value="8.87" name="planeta" id="Urano" />
+        </label>
+
+        <label for="Neptuno">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/280px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg"
+            alt="Neptuno"
+            class="img_planeta"/>
+          Neptuno
+          <input type="radio" value="11.15" name="planeta" id="Neptuno" />
+        </label>
+
+        <label for="Pluton">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/250px-Pluto_in_True_Color_-_High-Res.jpg"
+            alt="Pluton"
+            class="img_planeta"/>
+          Pluton
+          <input type="radio" value="0.62" name="planeta" id="Pluton"/>
+        </label>
+
+        <label for="Luna">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Full_Moon_Luc_Viatour.jpg/280px-Full_Moon_Luc_Viatour.jpg"
+            alt="Luna"
+            class="img_planeta"/>
+          La luna
+          <input type="radio" value="1.62" name="planeta" id="Luna" />
+        </label>
+      </div>
+    </form>
+
+    <div class="button">
+        <button id="calcular">CALCULAR</button>
+    </div>
+
+    <p id="resultado"></p>
+
+    <script src="pesoPlaneta.js"></script>
+  </body>
+</html>
