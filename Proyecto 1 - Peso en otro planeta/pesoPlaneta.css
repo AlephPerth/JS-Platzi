@@ -1,5 +1,7 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black; 
+    color: white;
 }
 
 header {
@@ -12,36 +14,9 @@ h2 {
     text-align: center;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px 300px;
-    padding: 24px 0 48px 0;
-    font-size: 18px;
-    place-content: center;
-    border: 1px solid black;
-}
-
 label {
-    padding-bottom: 8px;
-}
-
-#calcular {
-    border-radius: 12px;
-    width: 200px;
-    height: 60px;
-    font-size: medium;
-}
-
-#calcular:hover {
-    background-color: cadetblue;
-    color: white;
-    font-weight: bold;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    padding-top: 12px;
+    padding-bottom: 16px;
+    text-align: center;
 }
 
 p {
@@ -49,7 +24,59 @@ p {
     padding-left: 1rem;
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+#calcular {
+    border-radius: 12px;
+    width: 200px;
+    height: 60px;
+    font-size: medium;
+    background-color: cadetblue
+}
+
+#calcular:hover {
+    background-color: rgb(172, 224, 226);
+    color: black;
+    font-weight: bold;
+}
+
+#tu_peso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #prop {
+    font-size: 28px;
     padding-top: 1.75rem;
     padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#peso_usuario {
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    width: 75px;
+    height: 25px;
+    padding-top: .75rem;
+    margin-top: 1rem;
+}
+
+.img_planeta {
+    width: 50%;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 24px 0 48px 0;
+    font-size: 18px;
+    place-content: center;
+    border: 1px solid black;
 }

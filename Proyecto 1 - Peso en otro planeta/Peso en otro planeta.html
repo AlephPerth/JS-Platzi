@@ -4,82 +4,25 @@
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel="stylesheet" href="pesoPlaneta.css">
-
-    <title>Peso en otro planeta</title>
+    <link rel='stylesheet' href='pesoPlaneta.css'>
+    <title>TU PESO EN OTROS PLANETAS</title>
 </head>
     <body>
+        
         <header>
-            <h1>DESCUBRE TU PESO EN OTRO PLANETA</h1>
-        </header>  
-                    <form action='' method='post'>
+            <h1>DESCUBRE TU PESO EN OTROS PLANETAS</h1>
+        </header> 
 
-                        <label for='usuario' id="prop">¿Cuanto pesas en la tierra? (en Kg)</label>
-                        <input type='number' id='usuario'>
+        <div id='tu_peso'>
+            <label for='usuario' id='prop'>¿Cuanto pesas en la tierra? (en Kg)</label>
+            <input type='number' id='peso_usuario' style='text-align: center;'/>
+        </div>
 
-                        <p>Elije el planeta donde quieres saber cuanto pesarias:</p>
-
-                    <div class="container" id="grid">
-                                
-                        <label for='Mercurio'> 
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/mercury/desktop_light.mp4" autoplay loop></video> Mercurio
-                            <input type='radio' value=3.7 name='planeta' id='Mercurio'>
-                        </label>
-                        
-                        <label for='Venus'> 
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/venus_surface/desktop_light.mp4" autoplay loop></video> Venus
-                            <input type='radio' value= 8.87 name='planeta' id='Venus'>
-                        </label>
-                        
-                        <label for='Marte'> 
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/mars/desktop_light.mp4" autoplay loop> </video> Marte
-                                <input type='radio' value= 3.7 name='planeta' id='Marte'>
-                        </label>
-                        
-                        <label for='Jupiter'> 
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/jupiter/desktop_light.mp4" autoplay loop></video> Jupiter
-                            <input type='radio' value= 24.8 name='planeta' id='Jupiter'>
-                        </label>
-                        
-                        <label for='Saturno'> 
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/saturn/desktop_light.mp4" autoplay loop></video> Saturno
-                            <input type='radio' value= 10.44 name='planeta' id='Saturno'>
-                        </label>
-                        
-                        <label for='Urano'> 
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/uranus/desktop_light.mp4" autoplay loop></video> Urano
-                            <input type='radio' value= 8.87 name='planeta' id='Urano'>
-                        </label>
-                        
-                        <label for='Neptuno'>
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/neptune/desktop_light.mp4" autoplay loop></video> Neptuno
-                            <input type='radio' value= 11.15 name='planeta' id='Neptuno'>
-                        </label>
-
-                        <label for='Pluton'>
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/pluto/desktop_light.mp4" autoplay loop></video> Pluton
-                            <input type='radio' value= 0.62 name='planeta' id='Pluton'>
-                        </label>
-
-                        <label for='La luna'> 
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/earths_moon/desktop_light.mp4" autoplay loop></video> La luna
-                            <input type='radio' value= 1.62 name='planeta' id='La luna'>
-                        </label>
-
-                        <label for='El sol'> 
-                            <video src="https://www.gstatic.com/culturalinstitute/searchar/assets/sun/desktop_light.mp4" ></video> El sol
-                            <input type='radio' value= 247 name='planeta' id='El sol'>
-                        </label>
-                        
-                        </div>
-                    </form>
-  
-                <div class="button">
-                    <button id='calcular'>CALCULAR</button>
-                </div>
-            
-            <p id='resultado'></p>
-                
+           <div class='button'>
+            <a href='seleccion_planeta.html'>
+                <button id='siguiente'>SIGUIENTE</button>
+            </a>
+        </div>
         <script src='pesoPlaneta.js'></script>
     </body>
 </html>
