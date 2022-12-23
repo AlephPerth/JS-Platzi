@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='./CSS/pesoPlaneta.css'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>TU PESO EN OTROS PLANETAS</title>
+</head>
+    <body>
+        
+        <header>
+            <h1>DESCUBRE TU PESO EN OTROS PLANETAS</h1>
+            <audio src="" autoplay loop id="audio"></audio>
+        </header> 
+
+<section id="section-A">
+
+        <div id='your_weight'>
+            <label for='user' id='prop'>¿Cuanto pesas en la tierra? (en Kg)</label>
+            <input type='number' id='user_weight' style='text-align: center;'/>
+        </div>
+
+        <div class="button">
+            <button id="input_weight">INGRESAR DATOS</button>
+        </div>
+
+</section>
+
+<section id="section-B">
+
+        <form action="" method="post">
+            <div class="container" id="grid">
+
+                <label for="Mercurio">
+                    <img
+                        src="./img/Mercurio.jpg" alt="Mercurio" class="img_planet"/>
+                        Mercurio
+                        <input type="radio" value="3.7" name="planet" id="Mercurio"/>
+                </label>
+
+                <label for="Venus">
+                    <img
+                        src="./img/Venus.jpg" alt="Venus" class="img_planet"/>
+                        Venus
+                    <input type="radio" value="8.87" name="planet" id="Venus" />
+                </label>
+
+                <label for="Marte">
+                    <img
+                        src="./img/Marte.jpg" alt="Marte" class="img_planet"/>
+                        Marte
+                        <input type="radio" value="3.7" name="planet" id="Marte" />
+                </label>
+
+                <label for="Jupiter">
+                    <img
+                        src="./img/Jupiter.jpg" alt="Jupiter" class="img_planet"/>
+                        Jupiter
+                        <input type="radio" value="24.8" name="planet" id="Jupiter" />
+                </label>
+
+                <label for="Saturno">
+                    <img
+                        src="./img/Saturno.jpg" alt="Saturno" class="img_planet" id="Saturno"/>
+                        Saturno
+                        <input type="radio" value="10.44" name="planet" id="Saturno" />
+                </label>
+
+                <label for="Urano">
+                    <img
+                        src="./img/Urano.jpg" alt="Urano" class="img_planet"/>
+                        Urano
+                    <input type="radio" value="8.87" name="planet" id="Urano" />
+                </label>
+
+                <label for="Neptuno">
+                    <img
+                        src="./img/Neptuno.jpg" alt="Neptuno" class="img_planet"/>
+                        Neptuno
+                        <input type="radio" value="11.15" name="planet" id="Neptuno" />
+                </label>
+
+                <label for="Pluton">
+                    <img src="./img/Pluton.jpg" alt="Pluton" class="img_planet"/>
+                        Pluton
+                        <input type="radio" value="0.62" name="planet" id="Pluton"/>
+                </label>
+
+                <label for="Luna">
+                    <img src="./img/Luna.jpg" alt="Luna" class="img_planet"/>
+                        La luna
+                        <input type="radio" value="1.62" name="planet" id="Luna"/>
+                </label>
+
+            </div>
+        </form>
+
+            <div class="button">
+                <button id="calculate">CALCULAR</button>
+            </div>
+
+</section>
+
+<section id="section-C"> 
+
+        <button id="refresh">Back to beggin</button>
+        
+</section>
+
+        <script src='./JS/pesoPlaneta.js'></script>
+    </body>
+</html>
