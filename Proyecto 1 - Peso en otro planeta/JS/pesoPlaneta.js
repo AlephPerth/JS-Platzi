@@ -77,7 +77,7 @@ function gravity () {
         document.getElementById("section-B").style.display = "none"
         document.getElementById("section-C").style.display = "block"
 
-        //console.log(final_weight)
+//console.log(final_weight)
 
         result = 
     
