@@ -30,72 +30,9 @@
 
 <section id='section-B'>
 
-        <form action='' method='post'>
             <div class='container' id='grid'>
 
-                <label for='Mercurio'>
-                    <img
-                        src='./img/Mercurio.jpg' alt='Mercurio' class='img_planet'/>
-                        Mercurio
-                        <input type='radio' value='3.7' name='planet' id='Mercurio'/>
-                </label>
-
-                <label for='Venus'>
-                    <img
-                        src='./img/Venus.jpg' alt='Venus' class='img_planet'/>
-                        Venus
-                    <input type='radio' value='8.87' name='planet' id='Venus'/>
-                </label>
-
-                <label for='Marte'>
-                    <img
-                        src='./img/Marte.jpg' alt='Marte' class='img_planet'/>
-                        Marte
-                        <input type='radio' value='3.7' name='planet' id='Marte'/>
-                </label>
-
-                <label for='Jupiter'>
-                    <img
-                        src='./img/Jupiter.jpg' alt='Jupiter' class='img_planet'/>
-                        Jupiter
-                        <input type='radio' value='24.8' name='planet' id='Jupiter'/>
-                </label>
-
-                <label for='Saturno'>
-                    <img
-                        src='./img/Saturno.jpg' alt='Saturno' class='img_planet' id='Saturno'/>
-                        Saturno
-                        <input type='radio' value='10.44' name='planet' id='Saturno'/>
-                </label>
-
-                <label for='Urano'>
-                    <img
-                        src='./img/Urano.jpg' alt='Urano' class='img_planet'/>
-                        Urano
-                    <input type='radio' value='8.87' name='planet' id='Urano'/>
-                </label>
-
-                <label for='Neptuno'>
-                    <img
-                        src='./img/Neptuno.jpg' alt='Neptuno' class='img_planet'/>
-                        Neptuno
-                        <input type='radio' value='11.15' name='planet' id='Neptuno'/>
-                </label>
-
-                <label for='Pluton'>
-                    <img src='./img/Pluton.jpg' alt='Pluton' class='img_planet'/>
-                        Pluton
-                        <input type='radio' value='0.62' name='planet' id='Pluton'/>
-                </label>
-
-                <label for='Luna'>
-                    <img src='./img/Luna.jpg' alt='Luna' class='img_planet'/>
-                        La luna
-                        <input type='radio' value='1.62' name='planet' id='Luna'/>
-                </label>
-
             </div>
-        </form>
 
             <div class='button'>
                 <button id='calculate'>CALCULAR</button>
@@ -105,8 +42,10 @@
 
 <section id='section-C'> 
 
-        <button id='refresh'>Back to beggin</button>
-        
+        <div class='button'>
+            <button id=refresh onClick="window.location.reload();">VOLVER</button>
+        </div>
+
 </section>
 
         <script src='./JS/pesoPlaneta.js'></script>

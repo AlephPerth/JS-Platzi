@@ -35,7 +35,7 @@ audio {
     padding-bottom: 2rem;
 }
 
-#calculate,#input_weight {
+#calculate,#input_weight, #refresh {
     border-radius: 12px;
     width: 200px;
     height: 60px;
@@ -43,7 +43,7 @@ audio {
     background-color: cadetblue
 }
 
-#calculate:hover,#input_weight:hover {
+#calculate:hover,#input_weight:hover, #refresh:hover {
     background-color: rgb(172, 224, 226);
     color: black;
     font-weight: bold;
@@ -74,10 +74,6 @@ audio {
 
 .img_planet {
     width: 200px;
-}
-
-#Saturno {
-    margin-top: 3.3rem;
 }
 
 .container {
